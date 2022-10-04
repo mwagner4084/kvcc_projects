@@ -1,0 +1,212 @@
+body {
+	margin: 0;
+	font-family: Constantia, Georgia, "serif";
+}
+
+nav {
+	background-color: #7A7A7A;
+	padding:10px 0;
+	margin-bottom: 16px;
+}
+
+nav a {
+	color: #FFF;
+	text-decoration: none;
+	margin: 0 10px;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #8AEDAE;
+}
+
+figure {
+	display: inline-block;
+	margin: 0;
+}
+
+figcaption {
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	max-width: 275px;
+}
+	
+td, th {
+	border: 1px solid #000000;
+	text-align: left;
+}
+
+.container {
+	max-width: 950px;
+	margin:0 auto;
+	padding:0 20px;
+	text-align: center;
+}
+
+.nav-container {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.home-img {
+	width: 200px;
+	height: 350px;
+	object-fit: cover;
+}
+
+.img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 10px;
+}
+
+.logo {
+	mix-blend-mode: multiply;
+	height: 25px;
+	width: 125px;
+	position: absolute;
+	right: 0;
+	padding-right: 10px;
+	
+}
+
+.column {
+	font-weight: bold;
+	background-color: #B9B9B9;
+
+}
+
+.basics {
+	color: #000;
+	background-color: #B9B9B9;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+}
+
+.table-large {
+	width: 100%;
+	margin: auto;
+	float: left;
+	border-collapse: collapse;
+	max-width: 600px;
+	border: 3px double #00371B;
+	background-color: #AFFFC5;
+	display: inline-flex;
+}
+
+.oli-table {
+	width: 100%;
+	margin: auto;
+	float: left;
+	max-width: 975px;
+	border: 3px groove #00371B;
+	background-color: #F9FFB4;
+	display: inline-flex;
+	margin-bottom: 10px;
+}
+
+.jackson-table {
+	width: 100%;
+	margin: auto;
+	float: left;
+	border-collapse: collapse;
+	max-width: 950px;
+	border: 3px groove #00371B;
+	background-color: #FFCAA6;
+	display: inline-flex;
+	margin-bottom: 10px;
+}
+
+.tbl {
+	float: center;
+	padding: 10px; 
+}
+
+.oli-tbl {
+	float: center;
+	width: 250px;
+}
+
+.milo-theme {
+	background-image: url('/Project-4/img/bg/milo-bg3.jpg'); 
+  	background-color: #FFF; 
+  	height: 800px; 
+  	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover;
+}
+
+.jackson-theme {
+	background-image: url('/Project-4/img/bg/jackson-bg1.jpg');
+  	background-color: #000;
+  	height: 800px;
+  	background-position: center;
+  	background-repeat: repeat;
+  	background-size: cover; 
+	color: #000;
+}
+
+.main-theme {
+	background-image: url('/Project-4/img/bg/main-bg2.jpg');
+  	background-color: #000;
+  	height: 800px;
+  	background-position: center;
+  	background-repeat: repeat;
+  	background-size: auto; 
+	color: #000;
+}
+
+.oliver-theme {
+	background-image: url('/Project-4/img/bg/dog-bg.png');
+  	background-color: #000;
+  	height: 800px;
+  	background-position: center;
+  	background-repeat: repeat;
+  	background-size: cover; 
+	color: #000;
+}
+
+.reviews {
+	font-style: italic;
+	text-indent: 20px;
+	color: white;
+	text-align: left;
+}
+
+.bio {
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.oli-reviews {
+	font-style: italic;
+	font-weight: bold;
+	list-style-type: none;
+	text-align: left;
+}
+
+.oli-quote {
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#map {
+	height: 200px;
+	width: 100%;
+}
+
+.search {
+	mix-blend-mode: multiply;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

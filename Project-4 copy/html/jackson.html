@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<!--Marissa Connell 04/10/2022 Project 4-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jackson</title>
+<link rel="stylesheet" href="/Project-4/css/style.css">
+</head>
+	
+
+
+<body class="jackson-theme">
+
+<header>
+	
+	<nav class="nav-container">
+			<a href="https://mwagner4084.github.io/Project-4/index.html">HOME</a>
+			<a href="https://mwagner4084.github.io/Project-4/html/milo.html">MILO</a>
+			<a href="https://mwagner4084.github.io/Project-4/html/oliver.html">OLIVER</a>
+			<a href="https://mwagner4084.github.io/Project-4/html/jackson.html">JACKSON</a>
+			<img class="logo" src="/Project-4/img/icon/tindog.jpg" alt="logo" style="float:right">
+	</nav>
+	
+</header>	
+	
+<div class="container">
+
+<figure>
+<table class="jackson-table">
+  <tbody>
+    <tr>
+      <td>
+		  
+		<img class="img" src="/Project-4/img/jackson/jackson3.jpg" alt="jackson" width="275">
+		<div class="bio">
+            <h1>Jackson, 10</h1>
+            <p>Portage, MI</p>
+            <hr>
+			<ul  style="text-align:left">            
+              <li>Live Whiner for The Decibel Meter Testing Center at WoofWerks</li>
+              <li>Tenacious scrap scrounger</li>
+              <li>Unapologetically judgemental</li>
+            </ul>
+		</div>
+		  
+	  </td>
+		
+		<td class="bio">
+			
+		  <h1>Hey there, ladies.</h1>
+		  <h3>Is it warm in here, or are you just in heat?</h3>
+		  <p>I'm only looking for a little tail, if you know what I mean. Nothing serious. I don't like having another mammal around to compete with for attention from the humans. I am a Boston Terrier mixed with a Beagle, so naturally I'm very intelligent. I, unfortunately, share a birthday with Hitler, making my zodiac sign a Taurus. Do with that information what you will. I am excellent at scrounging through the trash for scraps and sniffing out each square foot of the home for crumbs. I am a frequent napper, and I do not appreciate interruptions of any kind. I do tend to overindulge in licking, but that could work out in your favor. I'm a big cuddler and have the amazing talent of fitting myself into anywhere I please, so even if the humans say there "isn't room" for me, once I'm in there, I'm rarely told to leave. If you're looking to lounge around, eat, and cuddle all day, I'm your dog.</p>
+			
+		  <h3>So... your doghouse or mine?</h3>
+			
+		</td>
+		
+		<td class="bio">
+			
+		  <img class="img" src="/Project-4/img/jackson/jackson-pup.jpg" alt="jackson" width="275">
+			<h1>Truck Stop Pup</h1>
+			<p>When I was born, I was left at a truck stop in a cardboard box with my brothers and sisters. When my dad found me, I was the last pup left. 
+			</p>
+			<hr>
+			<h3>I WAS FOUND HERE.</h3>
+			
+			
+			
+			
+      <div id="map"></div>
+
+      <script>
+
+
+
+        function initMap() {
+
+
+
+            // coordinates for truck stop pulled from Google Maps
+
+            const truckStop = { lat: 41.8066368, lng: -86.3211676 };
+
+            // coordinates for center of niles
+
+            const niles = {lat: 41.829769, lng: -86.254173}
+
+
+
+            // this creates and centers the map
+
+            const map = new google.maps.Map(document.getElementById("map"), {
+
+                      zoom: 10,
+
+                      center: niles,
+
+                      });
+
+
+
+            // this puts a marker on truck stop
+
+            const marker = new google.maps.Marker({
+
+                         position: truckStop,
+
+                         map: map,
+
+                      });
+
+
+
+            } // end of initMap() function
+
+         </script>
+
+         <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcKg0HaQtE1rQePF5Co3T0nhHQHs1bVz0&callback=initMap"
+            async>
+
+         </script>		
+
+      </td>			
+      </tr>
+	  
+    <tr>
+      <td class="bio">
+		  
+		  <img class="img" src="/Project-4/img/jackson/jackson4.jpg" alt="jackson" width="275">
+		  	<p>My parents often tell me I look "smug," but it's not my fault that my IQ is higher than everyone else around me.
+		  	</p>
+		  	<img class="img" src="/Project-4/img/jackson/jackson1.jpg" alt="jackson" width="275">
+		  	<p>Beach balls and balloons alike will meet their demise when faced with the grip of these canines.</p>
+	  </td>
+		
+      <td class="bio">
+		  
+		  <img class="img" src="/Project-4/img/jackson/jackson5.jpg" alt="jackson" width="300">
+			<h2>Tug of War Champion</h2>
+		  	<hr>
+			<p>
+				What I lack in stature, I make up for in strength. My bite is strong and my growl is mean. I have lost very few matches of Tug of War, and most of those I was wrongfully cheated out of. Don't let my competitive demeanor fool you, though. I am not what you would call a "tough" or "protective" dog, so if that's what you're looking for, prepare to be disappointed.
+		  	</p>
+		  <br>
+	  
+	  </td>
+      
+	  <td class="bio">  
+		<img class="img" src="/Project-4/img/jackson/dogs-jail.jpg" alt="jackson" width="275">  
+		  <h1>Bad Boy</h1>
+		<p>I'm extremely well-trained, but now that I'm older, I feel like I've earned the right to bend the rules every now and then. Sometimes I get caught, and that means having to spend some time in the joint. Worth.</p>
+		
+		<img class="img" src="/Project-4/img/icon/bbl.png" alt="bad boys" width="225">
+
+		  
+	   </td>
+    </tr>
+  </tbody>
+</table>
+</figure>
+</div>	
+</body>
+</html>
+
+

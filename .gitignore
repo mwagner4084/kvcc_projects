@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 Project-4 copy/.DS_Store
+Project-4 copy/img/.DS_Store
